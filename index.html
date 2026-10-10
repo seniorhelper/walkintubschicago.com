@@ -57,7 +57,7 @@
     /* HEADER */
     .siteHeader{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
     .headerInner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
-    .brand img{height:200px;width:auto;max-width:320px}
+    .brand{flex:0 1 280px;min-width:0}.brand img{display:block;width:280px;max-width:100%;height:auto}
     .headerRight{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
     .headerPhone{display:flex;flex-direction:column;align-items:flex-end;line-height:1.25}
     .headerPhone span{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
@@ -67,8 +67,8 @@
     .btnPrimary:hover{transform:translateY(-1px);box-shadow:0 8px 28px rgba(10,95,122,.4);text-decoration:none}
     .btnSecondary{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:var(--radius-sm);border:2px solid var(--ocean);color:var(--ocean);font-weight:700;font-size:15px;white-space:nowrap;transition:all .2s}
     .btnSecondary:hover{background:var(--ocean);color:#fff;text-decoration:none}
-    @media(max-width:900px){.brand img{height:160px}.headerPhone a{font-size:18px}}
-    @media(max-width:600px){.brand img{height:130px}.headerPhone span{display:none}.headerPhone a{font-size:15px}.btnPrimary{padding:11px 15px;font-size:14px}.btnSecondary{display:none}}
+    @media(max-width:900px){.headerPhone a{font-size:18px}}
+    @media(max-width:600px){.headerPhone span{display:none}.headerPhone a{font-size:15px}.btnPrimary{padding:11px 15px;font-size:14px}.btnSecondary{display:none}}
 
     /* TRUST STRIP */
     .trustStrip{background:linear-gradient(90deg,var(--navy) 0%,var(--ocean) 50%,var(--teal) 100%);padding:13px 0;overflow:hidden}
@@ -312,7 +312,7 @@
       .mDock a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:58px;font-weight:800;font-size:18px;text-decoration:none}
       .mDock .mCall{background:var(--ocean);color:#fff}.mDock .mQuote{background:#fff;color:var(--navy);border-top:1px solid var(--line)}
       body{padding-bottom:58px}}
-    @media(max-width:600px){.headerInner{flex-wrap:wrap;gap:8px}.brand img{height:84px}.headerRight{gap:10px}}
+    @media(max-width:600px){.headerInner{flex-wrap:wrap;gap:8px}.headerRight{gap:10px}}
     @media(max-width:380px){.headerInner{justify-content:center}.headerRight{justify-content:center}}
   </style>
 </head>
@@ -323,8 +323,8 @@
   <div class="wrap">
     <div class="headerInner">
       <a href="https://walkintubschicago.com/" class="brand" aria-label="Walk In Tubs Chicago Home">
-        <img src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
-             alt="Aging Safely Baths Logo" width="320" height="200" loading="eager" />
+        <img src="/aging-safely-baths-logo-header.webp"
+             alt="Aging Safely Baths Logo" width="280" height="74" loading="eager" />
       </a>
       <div class="headerRight">
         <div class="headerPhone">
