@@ -8,7 +8,7 @@ An Aging Safely Baths website. Walk-in tubs, roll-in and low-threshold showers, 
 
 - Phone 1-888-779-2284 (BATH), sales@agingsafelybaths.com, 7am to 8pm Mountain time, 7 days. BBB A+ accredited since 2012.
 - Process: quotes can start by phone or from photos. Once a customer chooses a tub or shower and places a deposit, a technician does a full in-person site visit (measurements, photos, options, questions) before installation day.
-- Installed pricing depends on the bathroom and the model; Aging Safely Baths does not publish installed prices and gives every home a free, itemized written quote. Veteran and senior discounts available. Most installs take 1 day.
+- Installed pricing depends on the bathroom and the model; Aging Safely Baths gives every home a free, itemized written quote. Veteran and senior discounts available. Most installs take 1 day.
 - Machine-readable business facts: https://www.agingsafelybaths.com/facts.json
 
 ## Pages
